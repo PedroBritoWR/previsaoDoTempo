@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>previsao do tempo</title>
-    <link rel="shortcut icon" href="assets/cloud_weather_cloudy_forecast_sky_icon-icons.com_55350.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/cloud_weather_cloudy_forecast_sky_icon-icons.com_55350.svg"
+        type="image/x-icon">
     <script src="script.js"></script>
 </head>
+
 <body id="container">
     <div id="container-conteudo">
-        <input 
-        type="text"
-        class="input" 
-        placeholder="Digite a cidade"
-        >
-        <button 
-            onclick="cliqueNoBotao()"
-            class="botao">
-            <img  class="lupa" src="./assets/find.svg" alt="Lupa">
+        <input type="text" class="input" placeholder="Digite a cidade">
+        <button onclick="cliqueNoBotao()" class="botao">
+            <img class="lupa" src="./assets/find.svg" alt="Lupa">
         </button>
         <div id="container-conteudo-secundaria">
             <h2 class="cidade">Tempo em São Paulo</h2>
-                <p class="grau">28º</p>
-                <img id="icon" src="https://openweathermap.org/img/wn/04n.png" alt="Nuvem">
+            <p class="grau">28º</p>
+            <img class="icon" src="https://openweathermap.org/img/wn/04n.png" alt="Nuvem">
             <p class="umidade">Umidade 70%</p>
         </div>
     </div>
 </body>
+
 </html>

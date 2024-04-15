@@ -9,6 +9,7 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  /* background-color: #070707; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,9 +18,10 @@ body {
 
 #container-conteudo {
   border-radius: 25px;
-  padding: 8px;
+  padding: 18px;
   background-color: black;
   opacity: 0.8;
+  width: 500px;
 }
 .botao {
   border: none;
@@ -72,3 +74,11 @@ input {
   margin-top: 30px;
   color: #ffffff;
 }
+#minha-imagem {
+  width: 100%; 
+  height: auto; 
+  margin-top: 10px; 
+}
+/* .imagem {
+  width: 300px;
+} */
